@@ -1,0 +1,15 @@
+model: 'sayan1101/merged_mistral_3'
+hellaswag_config: 
+    num_fewshot: 10
+    batch_size: 64
+    use_cached_result: False
+gsm8k_config:
+    num_fewshot: 0
+    batch_size: 64
+    use_cached_result: False
+arc_challenge_config:
+    num_fewshot: 25
+    batch_size: 64
+    use_cached_result: False
+
+    
